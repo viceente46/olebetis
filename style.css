@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #1e7c2a;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.field {
+    max-width: 500px;
+    margin: auto;
+    padding: 1rem;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.formation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.line {
+    display: flex;
+    justify-content: space-around;
+}
+.player {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 0.5rem;
+    text-align: center;
+    min-width: 60px;
+}
+.player span {
+    display: block;
+    font-size: 0.8rem;
+    color: #444;
+}
